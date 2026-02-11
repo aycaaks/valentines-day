@@ -9,6 +9,9 @@ body {
     font-family: "Trebuchet MS", sans-serif;
 }
 img{
-   width: 50%;
-   max-width: 400px;
+   width: 300px;
+   max-width: 80%;
+   height: auto;
+   display: block; 
+   margin: 0 auto; 
 }
