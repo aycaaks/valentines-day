@@ -1,32 +1,40 @@
 body {
   background-color: pink;
   font-family: "Trebuchet MS", sans-serif;
-  text-align: center;
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
+/* Center and resize heart */
 .heart {
   width: 300px;
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
   display: block;
   margin: 20px auto;
 }
 
+/* Fix button positioning and styling */
 .btn {
   display: inline-block;
   padding: 12px 25px;
   background-color: hotpink;
   color: white;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 12px;
   font-weight: bold;
   margin-top: 20px;
 }
-.big-photo {
-  width: 600px;
-  max-width: 90%;
+.collage {
+  width: 800px;
+  max-width: 95%;
   height: auto;
   display: block;
   margin: 30px auto;
+}
+
+.collage-description {
+  font-size: 18px;
+  margin-top: 15px;
 }
